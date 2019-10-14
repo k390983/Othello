@@ -1,5 +1,7 @@
 ## オセロ
 
+> **※画面が大きすぎる場合、cmdのフォントサイズを変えてからゲームを再起動させて下さい。** 
+
 ![Othello gif](https://raw.githubusercontent.com/k390983/assets/master/Images/Othello/othello.gif?token=ANPJTQPL6CZPHI4V2MSXCJC5URIHW)
 
 このゲームではaiと対戦することができます。aiは5手先まで見て、min-max探索という探索アルゴリズムとよく似たα-β探索を使い、石を打つ最も良い場所を探し、そこに石を打ちます。
