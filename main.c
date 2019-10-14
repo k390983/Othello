@@ -1,5 +1,5 @@
 /*
-cd C:\Users\Kai\Desktop\programing\othello\1.6
+cd C:\Users\Kai\Desktop\programing\Othello
 gcc main.c -o Othello
 
 */
