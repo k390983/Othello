@@ -10,7 +10,7 @@ Because the min-max algorithm checks every possible move, it is not optimized at
 
 ## Installation
 
-1. Download the repo
+1. Download the repository
 2. Run the program by clicking on *Othello.exe*
 > **If the screen is to big please change the console font size and restart the game.**     
 
