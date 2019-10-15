@@ -1,25 +1,34 @@
-## オセロ
-
-> **※画面が大きすぎる場合、cmdのフォントサイズを変えてからゲームを再起動させて下さい。** 
+## About The Project
 
 ![Othello gif](../assets/othello.gif)
 
-このゲームではaiと対戦することができます。aiは5手先まで見て、min-max探索という探索アルゴリズムとよく似たα-β探索を使い、石を打つ最も良い場所を探し、そこに石を打ちます。
+This is an Othello game with an AI that is able to see 5 turns in the future and place a piece in the best position using  alpha-beta pruning, an optimized version of the min-max algorithm. 
 
-min-max探索とは、想定される最大の損害が最小になるように決断を行う探索アルゴリズムです。将棋、チェス、オセロなどといった完全情報ゲームをコンピュータに思考させるためによく使われます。
+The min-max algorithm is a decision making algorithm that tries to find the optimal move, assuming that the opponent also plays optimally. It is often used in turn based, 2 player games. 
 
-min-max探索はすべての局面に対してしらみつぶしに探索を行うため、実際には読む必要のない手も読むことになり探索効率があまり良くないです。そこで、α-β法は、読む必要のない手を打ち切ることで高速化しています。
+Because the min-max algorithm checks every possible move, it is not optimized at all. Alpha-beta pruning solves this problem by cutting of branches when a better move already exists, reducing  computation time greatly. 
 
-### 遊び方
+## Installation
 
-最初に2人で遊ぶか1人で遊ぶか選びます。1人で遊ぶ場合はaiと対戦することになります。
+1. Download the repo
+2. Run the program by clicking on *Othello.exe*
+> **If the screen is to big please change the console font size and restart the game.**     
 
-矢印キーで石を打つ場所を選び、エンターキーで石を打ちます。石は相手の石を挟むように打ちます。挟まれた相手の石は自分の色に変わります。これを交互に繰り返していきます。石を打てる場所がなくなったらゲームが終了し、最後に石が多かったほうが勝ちます。
+## How To Play
 
-### 操作方法
+First, choose if you want to play against the AI or against another person.
 
-| キー			| 操作				|
+Choose where you want to play a piece (you can place pieces on the red marks) with the arrow keys and place it with the enter key. Each piece played must be played in a position that flanks at lest one of the opponent's pieces. The pieces that were flanked are turned over to show the player's colour.
+
+### Controls
+
+| Key	| Action	|
 |---|---|
-| 矢印キー   	| 石を打つ場所を選ぶ	|
-| エンターキー     	| 石を打つ			|
-| バックスペースキー	| ゲーム終了			|
+| Arrow Keys | Choose where to place your piece |
+| Enter Key | Place the piece	|
+| Back Space Key	| Finish the game	|
+
+## Roadmap
+
+See [open issues](https://github.com/github_username/repo/issues) for planned features and issues.
+
