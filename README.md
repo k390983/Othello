@@ -30,5 +30,5 @@ Choose where you want to play a piece (you can place pieces on the red marks) wi
 
 ## Roadmap
 
-See [open issues](https://github.com/github_username/repo/issues) for planned features and issues.
+See [open issues](https://github.com/k390983/Othello/issues) for planned features and issues.
 
