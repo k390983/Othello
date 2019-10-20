@@ -288,3 +288,20 @@ turn 04: (2, 4) score = 0006, mode = 1, num = 01718, time = 0.005
 1571023769
 
 1571023769
+
+1571533116
+
+1571533117
+
+---- LOG1571533123 ---- START ----
+
+turn 02: (2, 2) score = -001, mode = 1, num = 00875, time = 0.007
+turn 04: (1, 1) score = 0002, mode = 1, num = 02767, time = 0.003
+turn 06: (2, 0) score = -037, mode = 2, num = 01366, time = 0.002
+turn 08: (6, 5) score = -004, mode = 2, num = 02628, time = 0.003
+turn 10: (5, 5) score = 0003, mode = 2, num = 03948, time = 0.001
+turn 12: (5, 2) score = -012, mode = 2, num = 07889, time = 0.019
+
+1571533148
+
+1571533149
