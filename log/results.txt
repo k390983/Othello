@@ -7,4 +7,5 @@ END
  BLACK: 1, WHITE: 4, empty: 59END
  BLACK: 5, WHITE: 58, empty: 1END
  BLACK: 15, WHITE: 49, empty: 0END
- BLACK: 9, WHITE: 55, empty: 0
+ BLACK: 9, WHITE: 55, empty: 0END
+ BLACK: 5, WHITE: 11, empty: 48
