@@ -2024,7 +2024,7 @@ int ai(){
 	*/
 
 	FILE *fpL;
-	fpL = fopen("log.txt", "a");
+	fpL = fopen("..//log//log.txt", "a");
 
 	if(turn == 1 || turn == 2){
 		fprintf(fpL, "\n---- LOG%d ---- START ----\n\n", time(NULL));
