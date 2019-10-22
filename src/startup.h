@@ -1,7 +1,7 @@
 
 void startup(){
 	FILE *fp;
-	fp = fopen("log.txt", "a");
+	fp = fopen(".\\log\\log.txt", "a");
 	fprintf(fp, "\n%d\n", time(NULL));
 	srand(time(NULL));
 	system("cls");

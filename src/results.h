@@ -11,7 +11,7 @@ void results(){
 	int i,j;
 
 	FILE *fp;
-	fp = fopen("results.txt", "a");
+	fp = fopen(".\\log\\results.txt", "a");
 
 	e = 0;
 	b = 0;
