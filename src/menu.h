@@ -17,22 +17,22 @@ void menu(){
         
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_INTENSITY);
 
-        for(i = 0; i < 15; i++){
+        for(i = 0; i < 10; i++){
             printf("\n");
 
         }
 
-        printf("                            ███    █   █            █   █\n");
-        printf("                           █   █   █   █            █   █\n");
-        printf("                           █   █ █████ █       ███  █   █    ███\n");
-        printf("                           █   █   █   ████   █   █ █   █   █   █\n");
-        printf("                           █   █   █   █   █  █████ █   █   █   █\n");
-        printf("                           █   █   █   █   █  █     █   █   █   █\n");
-        printf("                            ███    ███ █   █   ███   ██  ██  ███\n\n\n");
+        printf("               ███    █   █            █   █\n");
+        printf("              █   █   █   █            █   █\n");
+        printf("              █   █ █████ █       ███  █   █    ███\n");
+        printf("              █   █   █   ████   █   █ █   █   █   █\n");
+        printf("              █   █   █   █   █  █████ █   █   █   █\n");
+        printf("              █   █   █   █   █  █     █   █   █   █\n");
+        printf("               ███    ███ █   █   ███   ██  ██  ███\n\n\n");
 
-        //"000000000011111111112222222222333333333344/\4444445555555555666666666677777777778888888888999999"
-        //"                         1人で遊ぶ(vs AI)     2人で遊ぶ                                          "
-        printf("                              ");
+        //"00000000001111111111222222222233/\333333444444444455555555556666"
+        //"               1人で遊ぶ(vs AI)     2人で遊ぶ"
+        printf("                 ");
 
         if(a % 2 != 0){
             SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_INTENSITY);
@@ -60,7 +60,7 @@ void menu(){
 
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
 
-        printf("                         矢印キーとエンターキーで選択してください");
+        printf("            矢印キーとエンターキーで選択してください");
 
         if(input == 1){
             input = 0;

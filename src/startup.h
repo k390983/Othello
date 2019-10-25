@@ -6,7 +6,7 @@ void startup(){
 	srand(time(NULL));
 	system("cls");
 	printf("\e[?25l");
-	system("MODE 96, 54"); // 12*8, 6*8+6
+	system("MODE 64, 38"); // 8*8, 4*8+6
 	system("chcp 65001");
 	system("cls");
 	SetConsoleTitle("Othello");

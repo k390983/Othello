@@ -41,7 +41,7 @@ void results(){
 
 	system("cls");
 
-	for(i = 0; i < 18; i++){
+	for(i = 0; i < 10; i++){
 		printf("\n");
 
 	}
@@ -50,30 +50,30 @@ void results(){
 
 	Sleep(DELAY);
 
-	printf("                                       ターン: %d\n\n", turn);
+	printf("                        ターン: %d\n\n", turn);
 
 	Sleep(DELAY);
 
-	printf("                                         空白: %d\n\n", e);
+	printf("                          空白: %d\n\n", e);
 
 	Sleep(DELAY);
 
-	printf("                                           黒: %d ポイント\n\n", b);
+	printf("                            黒: %d ポイント\n\n", b);
 	
 	Sleep(DELAY);
 
 	if(players == 1){
-		printf("                                       白(AI): %d ポイント\n\n", w);
+		printf("                        白(AI): %d ポイント\n\n", w);
 
 	}else{
-		printf("                                           白: %d ポイント\n\n", w);
+		printf("                            白: %d ポイント\n\n", w);
 
 	}
 	
 
 	Sleep(DELAY);
 
-	printf("                                  エンターキー: メニューに戻る");
+	printf("                  エンターキー: メニューに戻る");
 
 	while(1){
 		if(GetKeyState(VK_RETURN) & 0x8000){

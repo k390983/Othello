@@ -1,8 +1,3 @@
-/*
-cd C:\Users\Kai\Desktop\programing\Othello
-gcc main.c -o Othello
-
-*/
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -68,8 +63,6 @@ int main(void){
 		board[4][4] = 2;
 
 		menu();
-
-		system("MODE 96, 54");
 
 		while(restart == 0){
 
