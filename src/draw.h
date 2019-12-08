@@ -51,11 +51,11 @@ void draw(){
 										break;
 
 									case 1:
-										printf("  ████  ");
+										printf("  ▒▒▒▒  ");
 										break;
 
 									case 2:
-										printf("  ████  ");
+										printf("  ▒▒▒▒  ");
 										break;
 
 									case 3:
