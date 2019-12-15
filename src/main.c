@@ -555,6 +555,33 @@ int place(int x, int y){
 
 int input(){
 
+	POINT mousePos;
+	HWND hWnd = GetForegroundWindow();
+	GetCursorPos(&mousePos);
+	ScreenToClient(hWnd, &mousePos);
+	mousePos.x = mousePos.x / 8 + 4;
+	mousePos.y = mousePos.y / 16 + 2;
+
+	mousePos.x = mousePos.x / 8;
+	mousePos.y = mousePos.y / 4;
+
+	if(mousePos.x >= 0 && mousePos.y >= 0 && mousePos.x <= 8 && mousePos.y <= 8){
+		cursor_x = mousePos.x;
+		cursor_y = mousePos.y;
+
+		if((GetKeyState(VK_LBUTTON) & 0x8000)){
+			input_flag = 1;
+
+	    	if(place(cursor_x, cursor_y) == 1){
+	            turn++;
+
+	    	}
+
+
+		}
+
+	}
+
 	if((GetKeyState(VK_RIGHT) & 0x8000) && cursor_x < 7){
         cursor_x++;
 		input_flag = 1;

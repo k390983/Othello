@@ -10,6 +10,7 @@ void startup(){
 	system("chcp 65001");
 	system("cls");
 	SetConsoleTitle("Othello");
+	SetConsoleMode(GetStdHandle(STD_INPUT_HANDLE), ENABLE_EXTENDED_FLAGS);
 	fclose(fp);
 
     
